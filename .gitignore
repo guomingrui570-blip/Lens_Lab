@@ -1,0 +1,74 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# ===== Lens Lab 額外忽略：不進入 git 的大文件 / 無關項目 =====
+# 無關的 Python 健身項目文件夾
+CYT_03_Physical/
+CYT_03_Physical*/
+pose_app*.py
+3d_history_educate.py
+
+# 機器學習模型權重（體積巨大）
+*.pt
+*.pth
+*.onnx
+*.h5
+*.bin
+
+# 壓縮包
+*.zip
+*.7z
+*.rar
+*.tar.gz
+*.tgz
+
+# 影片輸出（保留 assets/videos 下的原素材）
+*.mp4
+!assets/videos/*.mp4
+
+# 本機私密配置
+*.env
+
